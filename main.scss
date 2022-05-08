@@ -66,9 +66,14 @@ p {
             span {
                 border-radius: 50%;
                 font-weight: bold;
-                padding: 1.3em 1.4em;
+                width: 3.5em;
+                height: 3.5em;
+                line-height: 3.5em;
+                text-align: center;
                 background: $rounds;
                 color: $lightgrey;
+                user-select: none;
+                cursor: pointer;
 
                 &:hover {
                     background: $primary-orange;

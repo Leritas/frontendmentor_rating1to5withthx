@@ -80,9 +80,17 @@ p {
 .container .rate .nums span {
   border-radius: 50%;
   font-weight: bold;
-  padding: 1.3em 1.4em;
+  width: 3.5em;
+  height: 3.5em;
+  line-height: 3.5em;
+  text-align: center;
   background: #29303d;
   color: #959eac;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: pointer;
 }
 
 .container .rate .nums span:hover {
